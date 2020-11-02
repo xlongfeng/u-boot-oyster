@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (C) 2020 Landon Hsiao <xlongfeng@126.com>
+// Copyright (C) 2013 Freescale Semiconductor, Inc.
+
+/dts-v1/;
+
+#include "imx6dl.dtsi"
+#include "imx6qdl-polar.dtsi"
+
+/ {
+	model = "Oyster i.MX6 DualLite Polar Device Board";
+	compatible = "fsl,imx6dl-oyster", "fsl,imx6dl";
+};

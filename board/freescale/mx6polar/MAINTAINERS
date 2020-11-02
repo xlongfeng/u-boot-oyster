@@ -1,0 +1,6 @@
+MX6POLAR BOARD
+M:	Landon Hsiao <xlongfeng@126.com>
+S:	Maintained
+F:	board/freescale/mx6polar/
+F:	include/configs/mx6polar.h
+F:	configs/mx6polar_defconfig

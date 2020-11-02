@@ -301,6 +301,16 @@ config TARGET_MX6Q_ENGICAM
 	select SUPPORT_SPL
 	imply CMD_DM
 
+config TARGET_MX6POLAR
+	bool "mx6polar"
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+	select DM
+	select DM_THERMAL
+	select MX6QDL
+	select SUPPORT_SPL
+	imply CMD_DM
+
 config TARGET_MX6SABREAUTO
 	bool "mx6sabreauto"
 	select BOARD_EARLY_INIT_F
@@ -586,6 +596,7 @@ source "board/el/el6x/Kconfig"
 source "board/embest/mx6boards/Kconfig"
 source "board/engicam/imx6q/Kconfig"
 source "board/engicam/imx6ul/Kconfig"
+source "board/freescale/mx6polar/Kconfig"
 source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6memcal/Kconfig"
 source "board/freescale/mx6sabreauto/Kconfig"

@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: GPL-2.0+
+#
+# Copyright (C) 2007, Guennadi Liakhovetski <lg@denx.de>
+#
+# (C) Copyright 2011 Freescale Semiconductor, Inc.
+#
+# (C) Copyright 2020 Landon Hsiao <xlongfeng@126.com>
+
+obj-y  := mx6polar.o
